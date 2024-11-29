@@ -18,7 +18,6 @@ return new class extends Migration
             $table->string('platform');
             $table->string('developer');
             $table->decimal('price', 8, 2);
-            $table->string('image')->nullable();
             $table->timestamps();
         });
     }
